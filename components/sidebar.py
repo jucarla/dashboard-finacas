@@ -197,7 +197,7 @@ layout = dbc.Col([
 
                             html.Div(id='id_teste_despesa', style={'padding-top': '20px'}),
                             dbc.ModalFooter([
-                                dbc.Button("Adicionar Despesa", id="salvar_receita", color="success"),
+                                dbc.Button("Adicionar Despesa", id="salvar_despesa", color="success"),
                                 dbc.Popover(dbc.PopoverBody("Despesa Salva"), target ="salvar_despesa", placement="left", trigger="click")
                             ])
                             
